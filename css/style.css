@@ -1,0 +1,157 @@
+html, body {
+  margin: 0px;
+  padding: 0px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  background: #1B1B1B;
+}
+
+h1, h2 {
+  color: #F0F72F;
+}
+
+p {
+  font-family: Tahoma, Geneva, sans-serif;
+  color: #F0F72F;
+}
+
+#nav {
+  position: fixed;
+  width: 125px;
+  top: 200px;
+  left: 0px;
+}
+
+#nav ul {
+  list-style-type: none;
+  text-align: center;
+  margin: 0px;
+  padding: 0px;
+}
+
+#nav li {
+  font-size: 24px;
+  padding-bottom: 40px
+}
+
+a:link, a:visited {
+  display: block;
+  color: #474747;
+  text-align: center;
+  padding: 10px;
+  text-decoration: none;
+  text-transform: uppercase;
+  -webkit-transition: color .5s;
+  transition: color .5s;
+}
+
+a:hover, a.active {
+  color: #F0F72F;	
+}
+
+a:active {
+  color: #F0F72F;
+}
+
+a.button {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #474747;
+  font-size: 20px;
+  background: #1B1B1B;
+  padding: 10px 20px 10px 20px;
+  border: solid #474747 2px;
+  text-decoration: none;
+  text-transform: none;
+  -webkit-transition: color .5s, background .5s, border .5s;
+  transition: color .5s, background .5s, border .5s;
+}
+
+a.button:hover {
+  background: #f0f72f;
+  border: solid #f0f72f 2px;
+  color: #000000;
+  text-decoration: none;
+}
+
+#about {
+  height: 700px;
+  padding-top: 225px;
+  font-family: Monotype Corsiva, serif;
+}
+
+#about h1 {
+  font-size: 72px;
+}
+
+#about p {
+  font-size: 24px;
+  font-family: Monotype Corsiva, serif;
+}
+
+#work {
+  height: 800px;
+  padding-top: 20px;
+}
+
+#slideshow2 {
+  height: 312px;
+}
+
+.icons {
+  margin: 20px 0px;
+  padding: 10px 0px;
+  border-top: solid #474747 2px;
+  border-bottom: solid #474747 2px;
+}
+
+.icons svg {
+  height: 64px;
+}
+
+#contact {
+  height: 800px;
+  padding-top: 20px;
+}
+
+#contact img {
+  height: 280px;
+  width: 280px;
+}
+
+#email img {
+  width: 320px;
+}
+
+@media only screen and (max-width: 768px) {
+  #nav {
+    display: none;
+  }
+
+  a.button {
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: Arial;
+    color: #000000;
+    font-size: 20px;
+    background: #f0f72f;
+    padding: 10px 20px 10px 20px;
+    border: solid #f0f72f 2px;
+    text-decoration: none;
+    text-transform: none;
+  }  
+
+  #work {
+    height: 1300px;
+  }
+
+  #contact {
+    height: 1010px;
+  }
+
+  #contact a {
+    color: #F0F72F;
+  }
+}
